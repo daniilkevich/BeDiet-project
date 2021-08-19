@@ -7,7 +7,7 @@ const Header = () => {
             <div>
                 App bar
                 <div>
-                    Container maxWidth=lg
+                    его правильное место Container maxWidth=lg
                     <div>Logo</div>
                     <Menu />
                 </div>
