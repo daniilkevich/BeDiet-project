@@ -1,16 +1,34 @@
 import React from 'react'
+import './Menu.css'
 
 const Menu = () => {
     return (
-        <div>
-            <div>
-                <ul>
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li>Articles</li>
-                    <li>About</li>
+        <div className="menu-wrapper col-dt-9">
+            <nav>
+                <ul className="menu">
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Diets</a>
+                    </li>
+                    <li>
+                        <a href="">Breakfast</a>
+                    </li>
+                    <li>
+                        <a href="">Lunch</a>
+                    </li>
+                    <li>
+                        <a href="">Dinner</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
                 </ul>
-            </div>
+            </nav>
         </div>
     )
 }
