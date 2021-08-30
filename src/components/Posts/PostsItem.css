@@ -1,11 +1,12 @@
 * {
     box-sizing: border-box;
 }
-.article-block {
+.post-block {
     margin-bottom: 15px;
     background-color: rgb(247, 242, 242);
     padding-left: 15px;
     padding-right: 15px;
+    flex-grow: 2;
 }
 .col-dt-4 {
     flex: 0 0 33.33332%;

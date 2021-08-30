@@ -2,18 +2,17 @@ import { Button } from '@material-ui/core'
 import React from 'react'
 import './ArticlesItem.css'
 
-const ArticlesItem = () => {
+const ArticlesItem = (props) => {
     return (
-        <div>
-            <div>
-                Recept post1
-                <div>Resept post img</div>
-                <div className="title-color">Resept post title</div>
-                <div>Resept post content</div>
-                <div>
-                    like and reed more btns
-                    <Button variant="outlined">Default</Button>
-                </div>
+        <div className="food-post col-dt-5">
+            <div className="food-post-img-wrapper">
+                <img src={props.imaje} className="food-post-img"></img>
+            </div>
+            <div className="food-post-title">{props.title}</div>
+            <div className="food-post-font-icon">--</div>
+            <div className="food-post-content">{props.description}</div>
+            <div className="food-post-btn">
+                <button class="post-btn">Read more</button>
             </div>
         </div>
     )

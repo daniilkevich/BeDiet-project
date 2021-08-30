@@ -22,7 +22,7 @@ const PostsArray = [
     },
     {
         id: 4,
-        imaje: '/imajes/post4.jpg',
+        imaje: '/imajes/post2.jpg',
         title: 'Nulla imperdiet sit',
         description:
             'Proin at sem. Nam sed erat. Integer quis lacus vehicula tortor at bibendum leo vulputate tempus ornare eu, pede. In nec malesuada.',
@@ -36,7 +36,7 @@ const PostsArray = [
     },
     {
         id: 6,
-        imaje: '/imajes/post6.jpg',
+        imaje: '/imajes/post2.jpg',
         title: 'Etiam ullamcorper',
         description:
             'Ut elit aliquet mi libero, pharetra nulla eu sapien. Aliquam fermentum malesuada. In nonummy. Class aptent taciti sociosqu ad litora torquent per',

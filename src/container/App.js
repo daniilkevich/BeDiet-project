@@ -1,14 +1,14 @@
 import react from 'react'
-import Slider from '../components/Slider/Slider'
+import Footer from './Footer/Footer'
 import Header from './Header/Header'
 import Main from './Main/Main'
-
+import './reset.css'
 const App = () => {
     return (
         <div>
             <Header />
-            <Slider />
             <Main />
+            <Footer />
         </div>
     )
 }

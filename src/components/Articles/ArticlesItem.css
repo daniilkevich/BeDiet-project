@@ -1,4 +1,44 @@
-.title-color {
-    color: green;
-    margin: 10px;
+.col-dt-5 {
+    flex: 0 0 41.66665%;
+    max-width: 41.66665%;
+}
+.food-post {
+    margin: 0 2% 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    padding: 0px;
+}
+.food-post-img {
+    max-width: 100%;
+    height: auto;
+}
+.food-post-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0px;
+}
+.food-post-font-icon {
+    margin: 0 auto;
+    font-size: 5px;
+    width: 20%;
+    background-color: rgb(158, 221, 99);
+    color: rgb(158, 221, 99);
+}
+.food-post-content {
+    text-align: center;
+    color: rgb(114, 108, 108);
+    margin: 15px 0px;
+    padding: 0 10%;
+}
+.food-post-btn {
+    text-align: center;
+    margin: 15px 0px;
+}
+.post-btn {
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: rgb(158, 221, 99);
+    margin: 15px 0px;
+    color: #fff;
 }

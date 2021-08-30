@@ -1,0 +1,62 @@
+.row4 {
+    display: flex;
+}
+
+.col-dt-4 {
+    flex: 0 0 33.33332%;
+    max-width: 33.33332%;
+    padding: 20px 40px;
+}
+
+.about-block-title,
+.mission-block-title,
+.contact-block-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    margin: 15px 0px;
+}
+.about-block-items {
+    color: rgb(114, 108, 108);
+}
+.about-list li {
+    padding: 10px;
+    position: relative;
+}
+
+.about-list a {
+    text-decoration: none;
+    color: rgb(114, 108, 108);
+}
+.about-list a:hover {
+    color: rgb(84, 202, 55);
+    text-decoration: underline;
+}
+.mission-block-content,
+.contact-block-content {
+    line-height: 1.5;
+    color: rgb(114, 108, 108);
+}
+.mbc {
+    margin-bottom: 15px;
+}
+.contact-block-phone {
+    margin: 15px 0px;
+    color: rgb(114, 108, 108);
+}
+.contact-block-email a {
+    text-decoration: none;
+    color: rgb(114, 108, 108);
+}
+.contact-block-email a:hover {
+    color: green;
+    text-decoration: underline;
+}
+.contact-block-social a {
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+}
+.contact-block-social {
+    margin-top: 10px;
+}

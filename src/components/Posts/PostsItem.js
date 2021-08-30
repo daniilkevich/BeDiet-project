@@ -3,7 +3,7 @@ import './PostsItem.css'
 
 const PostsItem = (props) => {
     return (
-        <div className="article-block col-dt-4">
+        <div className="post-block col-dt-4">
             <div className="img-block">
                 <img src={props.imaje} className="recept-img"></img>
             </div>

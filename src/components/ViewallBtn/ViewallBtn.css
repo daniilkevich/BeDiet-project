@@ -1,0 +1,16 @@
+.viev-section {
+    background-color: rgb(84, 202, 55);
+}
+.viev-block {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    width: 34.666%;
+    padding: 20px 0px;
+}
+.viev-title {
+    padding: 10px;
+    border-bottom: 2px solid #000;
+}
