@@ -42,3 +42,6 @@
     margin: 15px 0px;
     color: #fff;
 }
+.post-btn:hover {
+    background-color: rgb(233, 236, 35);
+}

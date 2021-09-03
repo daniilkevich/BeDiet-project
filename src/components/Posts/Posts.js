@@ -14,6 +14,7 @@ const Posts = () => {
                             imaje={post.imaje}
                             title={post.title}
                             description={post.description}
+                            category={post.category}
                         />
                     ))}
                 </div>

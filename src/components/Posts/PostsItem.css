@@ -12,14 +12,25 @@
     flex: 0 0 33.33332%;
     max-width: 33.33332%;
 }
+.img-block {
+    overflow: hidden;
+}
+
+.img-block img {
+    transition: transform 1.5s;
+}
+.img-block:hover img {
+    transform: scale(1.1);
+}
+
 .recept-img {
     max-width: 100%;
     height: auto;
 }
 .descr-block {
+    background-color: #fff;
     padding: 20px 20px 0px 20px;
     line-height: 1.5;
-    background-color: #fff;
 }
 .header-descr-block {
     font-size: 24px;
@@ -32,5 +43,32 @@
     font-weight: 400;
     color: rgb(88, 81, 81);
 }
+.rowfooter {
+    display: flex;
+    justify-content: space-around;
+}
 .footer-descr-block {
+    background-color: rgba(231, 225, 225, 0.795);
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 5px 0px;
+}
+.like-btn {
+    padding: 0px 10px 0px 10px;
+    margin: 0px 20px 0px 20px;
+}
+.reedmore-btn {
+    padding: 0px 10px 0px 10px;
+    margin: 0px 20px 0px 20px;
+    border-left: 2px solid grey;
+    text-align: center;
+    position: relative;
+}
+.reedmore-btn a {
+    text-decoration: none;
+    color: rgb(91, 214, 75);
+}
+.reedmore-btn a:hover {
+    text-decoration: underline;
+    color: rgb(55, 131, 45);
 }

@@ -1,6 +1,14 @@
 import React from 'react'
 import './PostsItem.css'
-
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
+import AssignmentIcon from '@material-ui/icons/Assignment'
+const styles = {
+    icon: {
+        position: 'absolute',
+        bottom: '7px',
+        right: '-15px',
+    },
+}
 const PostsItem = (props) => {
     return (
         <div className="post-block col-dt-4">
@@ -11,12 +19,18 @@ const PostsItem = (props) => {
                 <div className="header-descr-block">{props.title}</div>
                 <div className="main-descr-block">{props.description}</div>
                 <div className="footer-descr-block">
-                    <button>
-                        <a>like</a>
-                    </button>
-                    <button>
-                        <a>reed more</a>
-                    </button>
+                    <div className="rowfooter">
+                        <div className="like-btn">
+                            <a href="#">
+                                <FavoriteBorderIcon />
+                            </a>
+                        </div>
+                        <div>{props.category}</div>
+                        <div class="reedmore-btn">
+                            <AssignmentIcon style={styles.icon} />
+                            <a href="#">Reed more</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
