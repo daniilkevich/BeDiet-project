@@ -5,7 +5,11 @@ const Slider = () => {
     return (
         <div className="slider-section">
             <div className="slider">
-                <img className="slider-img" src="./imajes/slider1.jpg"></img>
+                <img
+                    className="slider-img"
+                    src="./imajes/slider1.jpg"
+                    alt="nice"
+                ></img>
             </div>
             <div className="slider-title">
                 Welcome to the place full of healthy food and ideas to keep you

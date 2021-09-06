@@ -1,4 +1,4 @@
-import react from 'react'
+import React from 'react'
 import { Route } from 'react-router'
 import AboutPaje from '../pajes/About/AboutPaje'
 import Footer from './Footer/Footer'

@@ -9,8 +9,11 @@ const Header = () => {
                 <div className="container">
                     <div className="row">
                         <div className="logo col-dt-3">
-                            <a>
-                                <img src="./imajes/logo-diet.png"></img>
+                            <a href="/#">
+                                <img
+                                    src="./imajes/logo-diet.png"
+                                    alt="nice"
+                                ></img>
                             </a>
                         </div>
                         <Menu />

@@ -5,7 +5,11 @@ const SliderAbout = () => {
     return (
         <div className="slider-section">
             <div className="slider">
-                <img className="slider-img" src="./imajes/slider3.jpg"></img>
+                <img
+                    className="slider-img"
+                    src="./imajes/slider3.jpg"
+                    alt="nice"
+                ></img>
             </div>
             <div className="slider-title">
                 Maecenas eleifend erat at justo fringilla imperdiet id ac magna.
@@ -18,7 +22,5 @@ const SliderAbout = () => {
             </div>
         </div>
     )
-    
-    
 }
 export default SliderAbout

@@ -22,37 +22,37 @@ const Footer = () => {
                                     <i>
                                         <ArrowRightIcon style={styles.icon} />
                                     </i>
-                                    <a href="#">Aenean sollicitudin</a>
+                                    <a href="/#">Aenean sollicitudin</a>
                                 </li>
                                 <li>
                                     <i>
                                         <ArrowRightIcon style={styles.icon} />
                                     </i>
-                                    <a href="#">Duis sed odio amet</a>
+                                    <a href="/#">Duis sed odio amet</a>
                                 </li>
                                 <li>
                                     <i>
                                         <ArrowRightIcon style={styles.icon} />
                                     </i>
-                                    <a href="#">Morbi accumsan velit</a>
+                                    <a href="/#">Morbi accumsan velit</a>
                                 </li>
                                 <li>
                                     <i>
                                         <ArrowRightIcon style={styles.icon} />
                                     </i>
-                                    <a href="#">Nam nec tellus</a>
+                                    <a href="/#">Nam nec tellus</a>
                                 </li>
                                 <li>
                                     <i>
                                         <ArrowRightIcon style={styles.icon} />
                                     </i>
-                                    <a href="#">Class aptent sociosqu</a>
+                                    <a href="/#">Class aptent sociosqu</a>
                                 </li>
                                 <li>
                                     <i>
                                         <ArrowRightIcon style={styles.icon} />
                                     </i>
-                                    <a href="#">Mauris erat justo</a>
+                                    <a href="/#">Mauris erat justo</a>
                                 </li>
                             </ul>
                         </div>
@@ -82,7 +82,7 @@ const Footer = () => {
                             tellus. Integer mattis.
                         </div>
                         <div className="contact-block-phone">
-                            <a href="#">+61 (0) 3 8376 6284</a>
+                            <a href="/#">+61 (0) 3 8376 6284</a>
                         </div>
                         <div className="contact-block-email">
                             <a href="mailto:noreply@envato.com">

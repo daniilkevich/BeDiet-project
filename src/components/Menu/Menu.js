@@ -8,25 +8,25 @@ const Menu = () => {
             <nav>
                 <ul className="menu">
                     <li>
-                        <a href="">Home</a>
+                        <a href="/#">Home</a>
                     </li>
                     <li>
                         <Link to="/about">About</Link>
                     </li>
                     <li>
-                        <a href="">Diets</a>
+                        <a href="/#">Diets</a>
                     </li>
                     <li>
-                        <a href="">Breakfast</a>
+                        <a href="/#">Breakfast</a>
                     </li>
                     <li>
-                        <a href="">Lunch</a>
+                        <a href="/#">Lunch</a>
                     </li>
                     <li>
-                        <a href="">Dinner</a>
+                        <a href="/#">Dinner</a>
                     </li>
                     <li>
-                        <a href="">Contact</a>
+                        <a href="/#">Contact</a>
                     </li>
                 </ul>
             </nav>

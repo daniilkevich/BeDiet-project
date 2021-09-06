@@ -13,7 +13,7 @@ const PostsItem = (props) => {
     return (
         <div className="post-block col-dt-4">
             <div className="img-block">
-                <img src={props.imaje} className="recept-img"></img>
+                <img src={props.imaje} alt="nice" className="recept-img"></img>
             </div>
             <div className="descr-block">
                 <div className="header-descr-block">{props.title}</div>
@@ -21,14 +21,14 @@ const PostsItem = (props) => {
                 <div className="footer-descr-block">
                     <div className="rowfooter">
                         <div className="like-btn">
-                            <a href="#">
+                            <a href="/#">
                                 <FavoriteBorderIcon />
                             </a>
                         </div>
                         <div>{props.category}</div>
                         <div className="reedmore-btn">
                             <AssignmentIcon style={styles.icon} />
-                            <a href="#">Reed more</a>
+                            <a href="/#">Reed more</a>
                         </div>
                     </div>
                 </div>
