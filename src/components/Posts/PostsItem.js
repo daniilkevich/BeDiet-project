@@ -26,7 +26,7 @@ const PostsItem = (props) => {
                             </a>
                         </div>
                         <div>{props.category}</div>
-                        <div class="reedmore-btn">
+                        <div className="reedmore-btn">
                             <AssignmentIcon style={styles.icon} />
                             <a href="#">Reed more</a>
                         </div>

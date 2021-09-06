@@ -89,20 +89,7 @@ const Footer = () => {
                                 noreply@envato.com
                             </a>
                         </div>
-                        <div class="contact-block-social">
-                            <a href="">
-                                <i class="fab fa-facebook-square "></i>
-                            </a>
-                            <a href="">
-                                <i class="fab fa-google-plus-square"></i>
-                            </a>
-                            <a href="">
-                                <i class="fab fa-twitter-square"></i>
-                            </a>
-                            <a href="">
-                                <i class="fab fa-vimeo"></i>
-                            </a>
-                        </div>
+                        <div className="contact-block-social"></div>
                     </div>
                 </div>
             </div>

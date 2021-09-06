@@ -12,7 +12,7 @@ const ArticlesItem = (props) => {
             <div className="food-post-font-icon">--</div>
             <div className="food-post-content">{props.description}</div>
             <div className="food-post-btn">
-                <button class="post-btn">Read more</button>
+                <button className="post-btn">Read more</button>
             </div>
         </div>
     )
