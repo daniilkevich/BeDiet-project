@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 const PostsArray = [
     {
         id: 1,

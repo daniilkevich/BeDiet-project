@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import './PostsItem.css'
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
 import AssignmentIcon from '@material-ui/icons/Assignment'
@@ -12,8 +11,6 @@ const styles = {
 }
 
 const PostsItem = (props) => {
-    
-
     return (
         <div className="post-block col-dt-4">
             <div className="img-block">
