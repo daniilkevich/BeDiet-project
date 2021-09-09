@@ -8,7 +8,7 @@ const Menu = () => {
             <nav>
                 <ul className="menu">
                     <li>
-                        <a href="/#">Home</a>
+                        <Link to="/home">Home</Link>
                     </li>
                     <li>
                         <Link to="/about">About</Link>
@@ -17,7 +17,7 @@ const Menu = () => {
                         <a href="/#">Diets</a>
                     </li>
                     <li>
-                        <a href="/#">Breakfast</a>
+                        <Link to="/breakfast">Breakfast</Link>
                     </li>
                     <li>
                         <a href="/#">Lunch</a>

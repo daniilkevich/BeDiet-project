@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './PostsItem.css'
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
 import AssignmentIcon from '@material-ui/icons/Assignment'
+import { Link } from 'react-router-dom'
 const styles = {
     icon: {
         position: 'absolute',
@@ -9,7 +10,10 @@ const styles = {
         right: '-15px',
     },
 }
+
 const PostsItem = (props) => {
+    
+
     return (
         <div className="post-block col-dt-4">
             <div className="img-block">
@@ -25,7 +29,9 @@ const PostsItem = (props) => {
                                 <FavoriteBorderIcon />
                             </a>
                         </div>
-                        <div>{props.category}</div>
+                        <div className="category-wrapper">
+                            <Link to="/breakfast">{props.category}</Link>
+                        </div>
                         <div className="reedmore-btn">
                             <AssignmentIcon style={styles.icon} />
                             <a href="/#">Reed more</a>

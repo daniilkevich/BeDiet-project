@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const PostsArray = [
     {
         id: 1,
@@ -21,7 +23,7 @@ const PostsArray = [
         title: 'Aenean dictum volutpat',
         description:
             'Integer aliquam. Nunc varius nec, molestie turpis ligula, nonummy sagittis. Vestibulum laoreet fermentum. Vivamus magna. Cum sociis.',
-        category: 'Breacfast',
+        category: 'Breakfast',
     },
     {
         id: 4,
@@ -45,7 +47,7 @@ const PostsArray = [
         title: 'Etiam ullamcorper',
         description:
             'Ut elit aliquet mi libero, pharetra nulla eu sapien. Aliquam fermentum malesuada. In nonummy. Class aptent taciti sociosqu ad litora torquent per',
-        category: 'Breacfast',
+        category: 'Breakfast',
     },
 ]
 export default PostsArray

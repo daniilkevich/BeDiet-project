@@ -1,7 +1,7 @@
 import React from 'react'
-import PostsArray from './PostsArray'
 import PostsItem from './PostsItem'
 import './Posts.css'
+import PostsArray from './PostsArray'
 
 const Posts = () => {
     return (
