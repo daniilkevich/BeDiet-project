@@ -8,12 +8,16 @@ import ViewallBtn from '../../components/ViewallBtn/ViewallBtn'
 import SliderAbout from '../../components/SliderAbout/SliderAbout'
 import AboutPaje from '../../pajes/About/AboutPaje'
 import BreakfastPaje from '../../pajes/BreakfastPaje/BreakfastPaje'
+import LunchPaje from '../../pajes/LunchPaje/LunchPaje'
+import DinnerPaje from '../../pajes/DinnerPaje/DinnerPaje'
 
-const Main = () => {
+const Main = ({ likeButtonsState, changeLike }) => {
     return (
         <div>
             <Route path="/about" component={AboutPaje} />
             <Route path="/breakfast" component={BreakfastPaje} />
+            <Route path="/lunch" component={LunchPaje} />
+            <Route path="/dinner" component={DinnerPaje} />
             <Route path="/home" component={Slider} />
             <Route path="/home" component={Posts} />
             <Route path="/home" component={ViewallBtn} />

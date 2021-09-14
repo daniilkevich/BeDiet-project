@@ -3,7 +3,7 @@ import PostsItem from './PostsItem'
 import './Posts.css'
 import PostsArray from './PostsArray'
 
-const Posts = () => {
+const Posts = ({ likeButtonsState, changeLike }) => {
     return (
         <>
             <div className="container-posts">
@@ -15,6 +15,9 @@ const Posts = () => {
                             title={post.title}
                             description={post.description}
                             category={post.category}
+                            id={post.id}
+                            changeLike={changeLike}
+                            likeButtonsState={likeButtonsState}
                         />
                     ))}
                 </div>
